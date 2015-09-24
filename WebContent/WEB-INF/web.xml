@@ -8,9 +8,12 @@
   		<param-name>jersey.config.server.provider.packages</param-name>
   		<param-value>co.edu.eafit</param-value>
   	</init-param>
-  	
   	<load-on-startup>1</load-on-startup>
   </servlet>
+ 
+	<welcome-file-list>
+   		<welcome-file>index.html</welcome-file>
+ 	</welcome-file-list>
   <servlet-mapping>
   	<servlet-name>RestCalculator</servlet-name>
   	<url-pattern>/rest/*</url-pattern>
