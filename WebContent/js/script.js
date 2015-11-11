@@ -58,9 +58,9 @@ function memoryHandler(element) {
   }
 
   if (m.length > 2) {
-    xmlhttp.open("GET","http://localhost:8080/RESTCalculator/rest/calculator/" + m + "/" + calResult, true);
+    xmlhttp.open("GET","http://localhost:8100/RESTCalculator/rest/calculator/" + m + "/" + calResult, true);
   }else {
-    xmlhttp.open("GET","http://localhost:8080/RESTCalculator/rest/calculator/" + m, true);
+    xmlhttp.open("GET","http://localhost:8100/RESTCalculator/rest/calculator/" + m, true);
   }
 
   xmlhttp.send();
