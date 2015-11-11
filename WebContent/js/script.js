@@ -21,7 +21,7 @@ function send() {
     }
   }
 
-  xmlhttp.open("GET","http://localhost:8080/RESTCalculator/rest/calculator/" + op + "/" + a + "/" + b, true);
+  xmlhttp.open("GET","http://localhost:8100/RESTCalculator/rest/calculator/" + op + "/" + a + "/" + b, true);
   xmlhttp.send();
 }
 
